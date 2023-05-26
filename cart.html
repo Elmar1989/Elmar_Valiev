@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <!-- Пакет JavaScript с Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+
+    <!-- Только CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        a {
+            text-decoration: none;
+            /* Отменяем подчеркивание у ссылки */
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header container">
+        <div class="logo_poisk">
+            <a href="index.html"><img class="index" src="img/LOGO.png" alt="logo"> </a>
+            <a href="#"><img class="poisk" src="img/FormaPoisk.png" alt=""></a>
+        </div>
+        <div class="burger_korzina_contakts">
+            <div class="dro_bur">
+                <a href="#"><img class="drop_menu_burger" src="img/burger.png" alt="alt">
+                    <div class="dropdown-content_burger">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </a>
+            </div>
+            <a href="registration.html"><img class="poisk" src="img/Forma 1.png" alt=""></a>
+            <a href="cart.html"><img src="img/korzina.png" alt="logo"></a>
+
+        </div>
+    </header>
+    <section class="main_menu container">
+
+        <div class="new_arrivals">
+            <h4>SHOPPING CART</h4>
+        </div>
+        <div class="kroshki">
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">HOME</a></li>
+                    <li class="breadcrumb-item" aria-current="page">MEN</li>
+                    <li class="breadcrumb-item" aria-current="page">SHOPPING CART</li>
+                </ol>
+            </nav>
+
+        </div>
+
+    </section>
+    <div class="main_cart container">
+
+        <section class="cart_1">
+            <div class="dcart_1">
+                <div class="img_cart_1">
+                    <img src="img/Cart_img_Cart1.svg" alt="alt">
+                </div>
+                <div class="opisanie_cart">
+                    <h2>MANGO PEOPLE <br>T-SHIRT</h2>
+                    <p>Price: 300$</p>
+                    <p>Color: Red</p>
+                    <p>Size: XL</p>
+
+
+                </div>
+            </div>
+            <div class="dcart_1">
+                <div class="img_cart_1">
+                    <img src="img/cart_img_cart2.svg" alt="alt">
+                </div>
+                <div class="opisanie_cart">
+                    <h2>MANGO PEOPLE <br> T-SHIRT</h2>
+                    <p>Price: 300$</p>
+                    <p>Color: Red</p>
+                    <p>Size: XL</p>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="shipping_adress">
+            <h4>SHIPPING ADRESS</h4>
+            <input class="input_cart" type="text" placeholder="Bangladesh">
+            <input class="input_cart" type="text" placeholder="State">
+            <input class="input_cart" type="text" placeholder="Postcode / Zip">
+            <button class="button_B_A_P">GET A QUOTE</button>
+
+        </section>
+
+    </div>
+    <section class="free_delivery container">
+        <div class="free ">
+            <img src="img/Gruzovik.png" alt="alt">
+            <h3 class="Free_text">Free Delivery</h3>
+            <p class="Free_parag">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                extensive models.</p>
+        </div>
+        <div class="sales">
+            <img src="img/%%.png" alt="">
+            <h3 class="Sales_text">Sales & discounts</h3>
+            <p class="Sales_parag">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                extensive models.</p>
+
+        </div>
+        <div class="quality">
+            <img src="img/Quality.png" alt="">
+            <h3 class="Quality_text">Quality assurance</h3>
+            <p class="Quality_parag">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                extensive models.</p>
+        </div>
+    </section>
+    <section class="subscribe container">
+        <div class="sub_left">
+            <img src="img/Koment.png" alt="">
+            <p class="Sub_parag">Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                condimentum“
+            </p>
+        </div>
+        <div class="sub_right">
+            <p> <b>SUBSCRIBE</b> <br> FOR OUR NEWLETTER AND PROMOTION</p>
+            <input class="input_mail" type="email" name="login" placeholder="Enter Your Email">
+            <button class="Sub_button">Subscribe</button>
+        </div>
+    </section>
+    <section class="footer container">
+        <div class="foot_left">
+            <p> © 2021 Brand All Rights Reserved.</p>
+        </div>
+        <div class="foot_right">
+            <div class="twitter_photo">
+                <a class="twitter" href="twitter.com"><img src="img/twitter.png" alt=""></a>
+                <a class="twitter" href="linkedin.com"><img src="img/linkedin.svg" alt=""></a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

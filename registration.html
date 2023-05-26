@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <!-- Пакет JavaScript с Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+
+    <!-- Только CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        a {
+            text-decoration: none;
+            /* Отменяем подчеркивание у ссылки */
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header container">
+        <div class="logo_poisk">
+            <a href="index.html"><img class="index" src="img/LOGO.png" alt="logo"> </a>
+            <a href="#"><img class="poisk" src="img/FormaPoisk.png" alt=""></a>
+        </div>
+        <div class="burger_korzina_contakts">
+            <div class="dro_bur">
+                <a href="#"><img class="drop_menu_burger" src="img/burger.png" alt="alt">
+                    <div class="dropdown-content_burger">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </a>
+            </div>
+            <a href="#"><img class="poisk" src="img/Forma 1.png" alt=""></a>
+            <a href="cart.html"><img src="img/korzina.png" alt="logo"></a>
+
+        </div>
+    </header>
+    <section class="main_menu container">
+
+        <div class="new_arrivals">
+            <h4>REGISTRATION</h4>
+        </div>
+        <div class="kroshki">
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">HOME</a></li>
+                    <li class="breadcrumb-item" aria-current="page">MEN</li>
+                    <li class="breadcrumb-item" aria-current="page">NEW ARRIVALS</li>
+                </ol>
+            </nav>
+
+        </div>
+
+    </section>
+    <section class="regisrtation_main container">
+        <div class="reg_left">
+            <form name="registration" method="post" action="input1.php">
+                <p>Your Name</p>
+                <input class="F_N" type="text" size="40" placeholder="First Name"><br>
+                <input class="F_N" type="text" size="40" placeholder="Last Name"><br>
+                <input class="Male_Female" type="radio" name="s" value="m" /> Male
+                <input type="radio" name="s" value="f" /> Female <br> <br>
+                <p>Login details</p>
+                <input class="F_N" type="e-mail" size="40" name="login" placeholder="Email"><br>
+                <input class="F_N" type="password" size="40" name="login" placeholder="Password"><br>
+                <button class="button_B_A_P">JOIN NOW &#8594</button>
+
+            </form>
+        </div>
+        <div class="reg_right">
+            <p>LOYALTY HAS ITS PERKS</p>
+            <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as
+                soon as you join:</p>
+            <ul>
+                <li class="reg_right_list_style">15% off welcome offer</li>
+                <li class="reg_right_list_style">Free shipping, returns and exchanges on all orders</li>
+                <li class="reg_right_list_style">$10 off a purchase on your birthday</li>
+                <li class="reg_right_list_style">Early access to products</li>
+                <li class="reg_right_list_style">Exclusive offers & rewards</li>
+            </ul>
+
+        </div>
+
+    </section>
+    <section class="free_delivery container">
+        <div class="free ">
+            <img src="img/Gruzovik.png" alt="alt">
+            <h3 class="Free_text">Free Delivery</h3>
+            <p class="Free_parag">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                extensive models.</p>
+        </div>
+        <div class="sales">
+            <img src="img/%%.png" alt="">
+            <h3 class="Sales_text">Sales & discounts</h3>
+            <p class="Sales_parag">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                extensive models.</p>
+
+        </div>
+        <div class="quality">
+            <img src="img/Quality.png" alt="">
+            <h3 class="Quality_text">Quality assurance</h3>
+            <p class="Quality_parag">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                extensive models.</p>
+        </div>
+    </section>
+    <section class="subscribe container">
+        <div class="sub_left">
+            <img src="img/Koment.png" alt="">
+            <p class="Sub_parag">Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                condimentum“
+            </p>
+        </div>
+        <div class="sub_right">
+            <p> <b>SUBSCRIBE</b> <br> FOR OUR NEWLETTER AND PROMOTION</p>
+            <input class="input_mail" type="email" name="login" placeholder="Enter Your Email">
+            <button class="Sub_button">Subscribe</button>
+        </div>
+    </section>
+    <section class="footer container">
+        <div class="foot_left">
+            <p> © 2021 Brand All Rights Reserved.</p>
+        </div>
+        <div class="foot_right">
+            <div class="twitter_photo">
+                <a class="twitter" href="twitter.com"><img src="img/twitter.png" alt=""></a>
+                <a class="twitter" href="linkedin.com"><img src="img/linkedin.svg" alt=""></a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
